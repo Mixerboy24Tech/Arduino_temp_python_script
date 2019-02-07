@@ -42,7 +42,7 @@ while True:
  try:
   data = s.readline()
  except SerialException:
-  print "Virhe sarjaportin lukemisessa"
+  print "Error reading serial port"
  n1=n1+1 
 # print data
  f = float(data)
